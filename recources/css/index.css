@@ -58,7 +58,7 @@ a {
 	margin: 0 auto;
 	height: 700px;
 	width: 1200px;
-	background-image: url(/recources/images/img-mission-background.jpg);
+	background-image: url(background-images/img-mission-background.jpg);
 }
 .mission-cont {
 	justify-content: space-around;
@@ -108,7 +108,7 @@ figure figcaption {
 .locations {
 	height: 500px;
 	width: 1200px;
-	background-image: url(/recources/images/img-locations-background.jpg);
+	background-image: url(background-images/img-locations-background.jpg);
 	margin: 0 auto;
 }
 .location-info {
