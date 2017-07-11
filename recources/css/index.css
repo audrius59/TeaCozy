@@ -1,3 +1,5 @@
+/* Global CSS style */
+
 body {
 	font-family: Helvetica;
 	font-size: 22px;
@@ -9,6 +11,14 @@ body {
 	flex-direction: column;
 	margin: auto;
 }
+
+section, .content, .mission-cont, .location-info div {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Header group style */
+
 header {
 	display: flex;
 	height: 69px;
@@ -37,15 +47,13 @@ nav p {
 a {
 	color: inherit;
 }
+
+/* Mission section style */
+
 .content {
 	margin-top: 69px;
-	display: flex;
-	flex-direction: column;
 }
-section {
-	display: flex;
-	flex-direction: column;
-}
+
 .mission {
 	margin: 0 auto;
 	height: 700px;
@@ -53,8 +61,6 @@ section {
 	background-image: url(/recources/images/img-mission-background.jpg);
 }
 .mission-cont {
-	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
 	align-content: center;
 	margin: auto 0;
@@ -63,6 +69,9 @@ section {
 	line-height: 0;
 	
 }
+
+/* Featured section style */
+
 .featured {
 	margin-bottom: 50px;
 }
@@ -90,6 +99,12 @@ figure {
 figure figcaption {
 	margin-top: 0;
 }
+.thumbnails figcaption {
+	margin-top: -5px;
+}
+
+/* Location section style */
+
 .locations {
 	height: 500px;
 	width: 1200px;
@@ -101,8 +116,6 @@ figure figcaption {
 	justify-content: center;
 }
 .location-info div {
-	display: flex;
-	flex-direction: column;
 	justify-content: space-around;
 	line-height: 0;
 	height: 300px;
@@ -114,14 +127,20 @@ figure figcaption {
 	margin-top: 50px;
 	margin-bottom: 10px;
 }
-.location-item {
+.location-info:nth-child(2) div {
 	margin: 0 40px;
 }
+
+/* Contact section style */
+
 .contact {
 	height: 200px;
 	justify-content: space-around;
 	margin-top: 10px;
 }
+
+/* Footer style */
+
 footer {
 	text-align: left;
 	margin-left: 20px;
